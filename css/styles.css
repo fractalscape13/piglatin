@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+  margin-top: 150px;
+  background-image: url("../img/RainbowBackground_Preview_03.jpg");
+  
+}
+
+button {
+  background-image: radial-gradient(darkred, goldenrod, skyblue, indigo);
+  border: 3px solid black;
+  width: 150px;
+  height: 30px;
+}
+/* .main {
+  background-color: whitesmoke;
+  opacity: .5;
+}  */
