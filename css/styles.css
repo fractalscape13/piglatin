@@ -1,17 +1,30 @@
-body {
-  text-align: center;
-  margin-top: 150px;
+body, html {
+  height: 100%;
+}
+
+.bg {
   background-image: url("../img/RainbowBackground_Preview_03.jpg");
-  
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: yellow;
+}
+
+* {
+  text-align: center;
+  margin-top: 15px;
 }
 
 button {
-  background-image: radial-gradient(darkred, goldenrod, skyblue, indigo);
+  background-image: radial-gradient(rgb(231, 75, 122), goldenrod, skyblue, indigo);
   border: 3px solid black;
   width: 150px;
   height: 30px;
+  border-radius: 10%;
+  margin: 25px;
 }
-/* .main {
-  background-color: whitesmoke;
-  opacity: .5;
-}  */
+
+input {
+  width: 300px;
+}
